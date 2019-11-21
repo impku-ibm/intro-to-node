@@ -4,11 +4,12 @@ var fs = require('fs');
 const PORT = process.env.PORT || 5000
 http.createServer(function(req,res){
 	var q = url.parse(req.url,true);
-	var filename="." + q.pathname+".html";
+	var filename="." + q.pathname;
 if(filename=="./"){
 	filename="./index";
 	console.log(filename);
 }
+filename=filename+".html";
 console.log(filename);
 	fs.readFile(filename,function(err,data){
 if (err) {
