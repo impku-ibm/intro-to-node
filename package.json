@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "12.13.1",
+  "description": "first node app",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impku-ibm/intro-to-node.git"
+  },
+  "author": "Pankaj Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/impku-ibm/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/impku-ibm/intro-to-node#readme"
+}
